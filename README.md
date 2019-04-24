@@ -1,6 +1,9 @@
 # lebus
 lebus (light emiting bus whatever the name is dumb shut up!!) is a simple Python library for pulling real-time schedules from Translink (Vancouver BC) and displaying them on a 32x32 LED matrix.  There's not a heck of a lot of features yet, but maybe that will change in the author's interest.  
 
+![lebus in action!](https://raw.githubusercontent.com/johnlarusic/lebus/master/sample2.jpg)
+(the image rotation information isn't coming through, wut?)
+
 ## Helpful links
 
 This project was inspired by the [MLB LED Scoreboard](https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard) project, which has a lot of useful information that is related to setting up these sorts of devices.
