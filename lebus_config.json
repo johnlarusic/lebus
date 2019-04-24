@@ -1,0 +1,49 @@
+{
+    "api_key": "YOUR_SECRET_API_KEY",
+    "refresh_rate": 5,
+    "send_to_led": false,
+    "send_to_file": false,
+    "default_image_file": "sched.png",
+    "led": {
+        "width": 32,
+        "height": 32,
+        "brightness": 20
+    },
+    "data_pull_timer": {
+        "min": 2,
+        "max": 5
+    },
+    "stops": [
+        {
+            "bus": "099",
+            "stop": "61935",
+            "display_bus": "99",
+            "display_direction": "E",
+            "tminus_warning": 8,
+            "tminus_critical": 3
+        },
+        {
+            "bus": "033",
+            "stop": "60100",
+            "display_bus": "33",
+            "display_direction": "E",
+            "tminus_warning": 5,
+            "tminus_critical": 10
+        },
+        {
+            "bus": "084",
+            "stop": "60159",
+            "display_bus": "84",
+            "display_direction": "E",
+            "tminus_warning": 8,
+            "tminus_critical": 3
+        }
+    ],
+    "colours": {
+        "background": "0,0,0,255",
+        "text": "255,255,255",
+        "time_default": "77,148,255",
+        "time_warning": "255,255,153",
+        "time_critical": "255,204,204"
+    }
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Translink online bus schedule
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+WorkingDirectory=/home/pi/lebus
+ExecStart=/usr/bin/python main.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
